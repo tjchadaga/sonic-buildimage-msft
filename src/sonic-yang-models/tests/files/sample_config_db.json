@@ -367,6 +367,13 @@
                 "lag_hash_algorithm": "XOR"
             }
         },
+        "SWITCH_TRIMMING": {
+            "GLOBAL": {
+                "size": "128",
+                "dscp_value": "48",
+                "queue_index": "6"
+            }
+        },
         "DEVICE_METADATA": {
             "localhost": {
                 "buffer_model": "dynamic",
@@ -1507,6 +1514,10 @@
                 "POLL_INTERVAL": "10000"
             },
             "ENI": {
+                "FLEX_COUNTER_STATUS": "enable",
+                "POLL_INTERVAL": "10000"
+            },
+            "SRV6": {
                 "FLEX_COUNTER_STATUS": "enable",
                 "POLL_INTERVAL": "10000"
             }
